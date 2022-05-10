@@ -1,0 +1,32 @@
+.contactList {
+  margin-top: 20px;
+  list-style: none;
+  padding: 0;
+}
+.noContacts {
+  color: rgb(61, 22, 233);
+}
+.listItem {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  padding-bottom: 2px;
+  box-shadow: 0 1px rgba(204, 131, 233, 0.5);
+}
+.listItemBtn {
+  width: 20px;
+  height: 20px;
+  color: red;
+  border-radius: 50px;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+span {
+  color: rgb(61, 22, 233);
+}

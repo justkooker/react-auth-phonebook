@@ -1,0 +1,31 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  padding-top: 10px;
+}
+input {
+  margin-bottom: 10px;
+  height: 20px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 1px 1px 0 rgb(202, 10, 10);
+}
+input:focus {
+  outline: none;
+}
+.formButton {
+  width: 150px;
+  color: blueviolet;
+  height: 25px;
+  border-radius: 5px;
+  border: 1px solid rgb(226, 112, 112);
+  background-color: transparent;
+  margin-left: auto;
+  cursor: pointer;
+}
+.formButton:hover {
+  background-image: -webkit-gradient(rgb(226, 112, 112));
+  background-position: -100%;
+  transition: 2s background-position;
+}
