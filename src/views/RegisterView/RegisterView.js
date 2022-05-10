@@ -36,22 +36,25 @@ function RegisterView() {
           type="text"
           value={user.name}
           name="name"
+          placeholder="Name"
         />
         <input
           onChange={onChangeInput}
           type="email"
           value={user.email}
           name="email"
+          placeholder="Email"
         />
         <input
           onChange={onChangeInput}
           type="password"
           value={user.password}
           name="password"
+          placeholder="Password"
         />
 
         <button type="submit" className={commonStyles.formButton}>
-          submit
+          Register
         </button>
       </form>
     </div>
